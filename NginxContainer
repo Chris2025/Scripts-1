@@ -1,0 +1,10 @@
+yum install docker
+
+y
+
+sudo systemctl start docker
+
+sudo docker pull nginx
+
+docker run -it -d -p 80:80 --name nginx nginx
+
